@@ -1,0 +1,17 @@
+header{
+    height: 30px;
+    background: rgb(226, 197, 123);
+    margin-bottom: 15px;
+}
+
+nav{
+    height: 25px;
+}
+.Primer_nav{
+    background: rgb(133, 64, 133);
+    margin-bottom: 15px;
+}
+
+.Segundo_nav{
+    background: rgb(129, 94, 100);
+}
