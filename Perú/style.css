@@ -1,0 +1,29 @@
+.bandera{
+    height: 600px;
+    background:beige;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bandera article{
+    height: 90px;
+    width: 50px;
+    background-color: red;
+    border: 1px solid black;
+    
+}
+
+.medio article{
+    height: 90px;
+    width: 50px;
+    background-color: white;
+}
+
+.derecho article{
+    height: 90px;
+    width: 50px;
+    background-color: red;
+    border: 1px solid black;
+}
