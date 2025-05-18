@@ -1,0 +1,21 @@
+header{
+    height: 600%; 
+    width: 100%;
+    background-color: antiquewhite;
+    border: 0.5px solid black;
+    justify-content: flex-start;
+    
+}
+h2{
+    font-family: cursive;
+    font-size: small;
+    text-align: center;
+}
+
+footer{
+    height: 50%; 
+    width: 100%;
+    background-color: burlywood;
+    border: 0.5px solid black;
+    line-height: 500px;
+}
