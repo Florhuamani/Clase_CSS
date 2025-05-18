@@ -1,29 +1,58 @@
-.bandera{
-    height: 600px;
-    background:beige;
-    padding-top: 5px;
+body {
     display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
+    justify-self: unset;
+    height: 100vh;
+    margin: 0;
+}
+
+.bandera {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    border: 1px solid black;
+}
+.blanco{
+    display: flex;
     align-items: center;
 }
-
-.bandera article{
-    height: 90px;
-    width: 50px;
+.blanco img{
+    width: 100%;
+}
+.peru .rojo {
     background-color: red;
-    border: 1px solid black;
-    
+    flex: 1;
+    margin-right: 15px; 
+    border: 2px; 
 }
 
-.medio article{
-    height: 90px;
-    width: 50px;
+.peru .blanco {
     background-color: white;
+    flex: 1;
 }
 
-.derecho article{
-    height: 90px;
-    width: 50px;
-    background-color: red;
-    border: 1px solid black;
+.chile {
+    flex-direction: column;
 }
+
+.chile .blanco {
+    background-color: white;
+    flex: 1;
+    display: flex;
+}
+
+.chile .azul {
+    background-color: blue;
+    width: 125px;
+    height: 100px;
+}
+
+.chile .rojo {
+    background-color: red;
+    flex: 1;
+}
+
+    
+    
