@@ -1,0 +1,26 @@
+*{
+    margin: 3px;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: aliceblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    border: rgb(204, 188, 188) solid 1px;
+    transition: all 2s;
+}
+
+section:hover{
+    background: beige;
+    border-radius: 50%;
+    rotate: 180deg;
+}
