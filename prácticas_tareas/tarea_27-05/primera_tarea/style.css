@@ -1,0 +1,43 @@
+*{
+    margin: 4px;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: rgb(224, 218, 170);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    width: 100px;
+    height: 100px;
+    background: rgb(162, 204, 241);
+    position: absolute;
+    border-radius: 100%;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+section:hover{
+    animation: bounce 2s infinite;
+    transform-origin: bottom;
+}
+
+@keyframes bounce{
+    0%, 100%{
+        transform:translateY(0) scale(1, 1); 
+    }
+    25%{
+        transform: translateY(-100px) scale(1, 1);
+    }
+    50%{
+        transform: translateY(0) scale(1, 0.9);
+    }
+    75%{
+        transform: translateY(-50px) scale(1, 1);
+    }
+}
